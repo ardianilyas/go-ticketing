@@ -1,0 +1,44 @@
+# ===== Go =====
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+app
+
+# Build directories
+/bin/
+/build/
+/dist/
+
+# ===== Go workspace =====
+go.work
+go.work.sum
+
+# ===== Environment variables =====
+.env
+.env.*
+!.env.example
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Air (hot reload) =====
+.air.toml
+tmp/
+
+# ===== Coverage =====
+coverage.out
